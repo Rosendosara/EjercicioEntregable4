@@ -1,0 +1,49 @@
+.imagen{
+  width: 200px;
+}
+#volver{
+  background-color:gainsboro;
+  margin-left:45%;
+  width:150px ;
+  margin-top: 10px;
+}
+
+td{
+  padding: 10px;
+}
+.centrado{
+  text-align: center;
+}
+.titulo{
+  font-weight: bolder;
+}
+tr:first-child{
+  color: black;
+  background-color:gainsboro; 
+  font-size:25px;
+}
+tr:nth-child(3){
+  background-color:  #7bdcb5;
+  font-size:15px ;
+}
+tr:nth-child(5){
+  background-color:  #7bdcb5;
+  font-size:15px ;
+}
+tr:nth-child(7){
+  background-color:  #7bdcb5;
+  font-size:15px ;
+}
+tr:nth-child(2){
+    background-color: #00d084;
+    font-size:15px ;
+}
+tr:nth-child(4){
+  background-color: #00d084;
+  font-size:15px ;
+}
+
+tr:nth-child(6){
+  background-color: #00d084;
+  font-size:15px ;
+}

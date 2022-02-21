@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="taquilla.css">
+    <title>Taquilla</title>
+</head>
+<body>
+    <main>
+		<article th:each="pelicula: ${taquilla}">
+            <p>Título</p> <h4 th:text="${pelicula.titulo}"/></4>
+            <p>Año de estreno</p>
+            <h4 th:text="${pelicula.estreno}"/></h4>
+            
+    <div>
+            <img th:src="@{${pelicula.urlImagen}}"/>
+    </div>
+    <div class="sinopsis">
+      <h1 th:text="${pelicula.sinopsis}"/></h1>
+    </div>
+		</article>       
+    </main>
+    <a href="javascript:history.back()"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-agtlXfychWzdbe89Jyr2lhQF_Z5nZ2X81A&usqp=CAU"alt="Botón" id= "volver"</a>
+  
+</body>
+</html>

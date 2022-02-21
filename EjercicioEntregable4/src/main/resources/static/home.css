@@ -1,0 +1,35 @@
+body{
+    background-image: url(palomitas.png);
+    background-repeat: no-repeat ;
+    background-size: 55%;
+    background-color: #7bdcb5;
+}
+
+.link{
+font-size: 25px;
+float: left;
+background-color:white;
+
+}
+    a:hover, a:active, a:focus {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    }
+    
+    .enunciado{
+            font-size: 80px;
+            margin-left: 60%;
+            font-family: 'Gloria Hallelujah';
+            position: absolute;
+            margin-top:1%;
+        }
+         
+     
+    
+    
+
+
